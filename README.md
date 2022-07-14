@@ -21,4 +21,6 @@ Just **Clone** This Repo And [Add](https://docs.microsoft.com/en-us/visualstudio
 
 - **Always** Create Separated Class For Benchmark In Order To Pass it Down To `BenchmarkRunner.Run<MyClass>()`
 
+##### also this is an real example of benchmarking in dotnet; [this repo](https://github.com/MrAliSalehi/MethodCacher) and [this file](https://github.com/MrAliSalehi/MethodCacher/blob/master/MethodCacher.Benchmark/Bench.cs).
+
 #### Have Fun.
