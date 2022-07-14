@@ -1,0 +1,26 @@
+<VSTemplate Version="2.0.0" Type="Project"
+    xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+	<TemplateData>
+		<Name>BenchmarkTemplate</Name>
+		<Description>A Simple Benchmark Template Using Benchmark.Net</Description>
+		<ProjectType>CSharp</ProjectType>
+		<ProjectSubType>
+		</ProjectSubType>
+		<SortOrder>1000</SortOrder>
+		<CreateNewFolder>true</CreateNewFolder>
+		<DefaultName>Bench</DefaultName>
+		<ProvideDefaultName>true</ProvideDefaultName>
+		<LocationField>Enabled</LocationField>
+		<EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+		<CreateInPlace>true</CreateInPlace>
+		<Icon>__TemplateIcon.ico</Icon>
+	</TemplateData>
+	<TemplateContent>
+		<Project TargetFileName="BenchmarkTemplate.csproj" File="BenchmarkTemplate.csproj" ReplaceParameters="true">
+			<Folder Name="Benchmarks" TargetFolderName="Benchmarks">
+				<ProjectItem ReplaceParameters="true" TargetFileName="MyAwesomeBenchmark.cs">MyAwesomeBenchmark.cs</ProjectItem>
+			</Folder>
+			<ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+		</Project>
+	</TemplateContent>
+</VSTemplate>
