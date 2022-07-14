@@ -1,7 +1,7 @@
 ## Benchmark Template
 
 
-#### This Is A Visual Studio Template For Benchmarking Using Benchmark.Net.
+#### This Is A Visual Studio Template For Benchmarking Using [Benchmark.Net](https://github.com/dotnet/BenchmarkDotNet).
 
  ## How To Use : 
 
@@ -18,5 +18,7 @@ Just **Clone** This Repo And [Add](https://docs.microsoft.com/en-us/visualstudio
 
 - **`[Benchmark]`** Attribute Is Required in Top of The Methods That You Want To Benchmark It.
 - You Methods Can Be **`void`**.
+
+- **Always** Create Separated Class For Benchmark In Order To Pass it Down To `BenchmarkRunner.Run<MyClass>()`
 
 #### Have Fun.
